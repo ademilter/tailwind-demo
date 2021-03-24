@@ -1,0 +1,29 @@
+.base {
+  @apply
+  bg-blue-700
+  text-white
+  text-sm font-semibold
+  py-1.5 px-3
+  rounded
+  transition
+
+  hover:bg-blue-800
+  disabled:opacity-50
+}
+
+.default {
+  @apply
+  bg-gray-100
+  text-gray-700
+
+  hover:bg-gray-200
+}
+
+.link {
+  @apply
+  bg-transparent
+  text-blue-600
+  p-0
+  hover:bg-transparent
+  hover:text-blue-800
+}

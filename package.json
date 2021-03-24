@@ -1,0 +1,24 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "^10.0.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.5",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.3"
+  }
+}

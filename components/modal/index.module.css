@@ -1,0 +1,21 @@
+.card {
+  @apply
+  flex items-start space-x-4
+  px-4 py-5
+  border border-gray-200
+  rounded
+  shadow-lg
+  w-96
+}
+
+.title {
+  @apply
+  font-bold
+  mb-1
+}
+
+.footer {
+  @apply
+  flex space-x-4
+  mt-3
+}

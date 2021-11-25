@@ -1,9 +1,14 @@
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
-  darkMode: false,
-  variants:{
+  mode: 'jit',
+  purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {}
+  },
+  variants: {
     extend: {
-      opacity: ["disabled"]
+      opacity: ['disabled']
     }
-  }
+  },
+  plugins: []
 }
